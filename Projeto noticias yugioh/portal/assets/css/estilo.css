@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+.topo{
+    height: 30px;
+    background-color: #333333;
+}
+.topoint{
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    
+    margin: auto;
+}
+.topoleft{
+    width: 50%;
+    height: 30px;
+    float: left;
+   
+}
+.toporight{
+    width: 50%;
+    height: 28px;
+    float: right;
+    color: white;
+    text-align: right;
+    margin-top: 2px;
+
+   
+}
+.topoleft ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topoleft li{
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.topoleft a{
+    text-decoration: none;
+    color: white;
+
+}
+.topoleft a:hover{
+    color: blue;
+
+}
+.topobusca{
+    width: 110px;
+    height: 20px;
+    outline: 0;
+
+}
+.toporight a{
+    float: right;
+    
+    
+}
+.toporight input{
+    float: right;
+}
+.toporight img{
+    margin-right: 4px;
+
+}
+.topo2{
+    height: 95px;
+    color: #000;
+}
+.topo2int{
+    width: 100%;
+    max-width:1040px;
+    height:95px;
+    
+    margin:auto;
+}
+.logo{
+    width: 230px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    
+}
+.topo2 .banner{
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    
+}
+.menu{
+    height: 40px;
+    background-color: red;
+}
+.menuint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    height: 40px;
+    
+}
+.menuint ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menuint li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menuint li:hover .submenu{
+    display: block;
+}
+.submenu{
+    width: 150px;
+    
+    background-color: red;
+    position: absolute;
+    display: none;
+
+}
+.submenuitem{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.submenuitem:hover{
+    background-color: #ff555f;
+}
+.ultimo{
+    height: 40px;
+    
+}
+.ultimoint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;   
+    height: 40px;
+    
+}
+.ultarea{
+    height: 28px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.ultinoticastitulo{
+    background-color: red;
+    color: white;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    padding-left: 10;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.ultinoticasnoticia{
+    color: #000;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 5px;
+
+}
+.containerint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    background-color: gray;
+
+
+}
+.right{
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    
+    margin-left: 12px;
+}
+.left{
+    width: 753px;
+    float: left;
+    
+   
+}
+.widget{ 
+  background-color: white;  
+  border: 1px solid  gray;
+  margin-bottom:10px;
+  font-weight: bold;
+}
+.widget_titulo{
+    height: 30px;
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 14px;
+    
+}
+.widget_conteudo{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.noticia-item{
+    font-size: 14px;
+    margin:0px 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    font-weight: normal;
+
+}
+.noticia-item a{
+text-decoration: none;
+color: black;
+}
+.slideshow{
+    height: 335px;
+    background-color: #ccc;
+    overflow: hidden;
+}
+.slidearea{
+    
+    height: 335px;
+   
+}
+.slide{
+    float: left;
+    height: 335px;
+}
+.noticiaarea1{
+    width: 430px;
+    float: left;
+    height: 420px;
+    background-color: #333;
+}

@@ -1,0 +1,60 @@
+#topo{
+    width: 1000px;
+    height: 50px;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+}
+#logo-topo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px
+;
+}
+#menus{
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 15px;
+    height: 100px;
+    margin-bottom: 5px;
+    
+    
+    
+}
+#menus ul li{
+    text-decoration: none;
+    list-style: none;
+    line-height: -50px;
+    border:1px solid black;
+    
+}
+#container1{
+    width: 1000px;
+    height: 500px;
+    ;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid red;
+
+}
+#img1{
+    padding: auto;
+    float: left;
+}
+#desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: url(fundo.jpg) no-repeat;
+    border: 1px solid black;
+  
+height: 500px;
+}
+body{
+    background: url(body.jpg);
+}
+h1{
+    color: red;
+}
